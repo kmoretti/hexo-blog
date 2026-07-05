@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.kemeow.top/tags/index.html</loc>
-    
-    <lastmod>2026-07-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.kemeow.top/links/index.html</loc>
     
     <lastmod>2026-07-05</lastmod>
@@ -29,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.kemeow.top/2026/07/05/hello-world/</loc>
+    <loc>https://blog.kemeow.top/message/index.html</loc>
     
     <lastmod>2026-07-05</lastmod>
     
@@ -38,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://blog.kemeow.top/404.html</loc>
+    <loc>https://blog.kemeow.top/tags/index.html</loc>
+    
+    <lastmod>2026-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kemeow.top/2026/07/05/hello-world/</loc>
     
     <lastmod>2026-07-05</lastmod>
     
@@ -66,6 +66,15 @@
   
   <url>
     <loc>https://blog.kemeow.top/fcircle/index.html</loc>
+    
+    <lastmod>2026-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kemeow.top/404.html</loc>
     
     <lastmod>2026-07-05</lastmod>
     
