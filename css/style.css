@@ -6539,8 +6539,8 @@ b) {
   width: 320px;
   height: 420px;
   overflow: hidden;
-  border-radius: 12px;
-  background: var(--paper-warm);
+  border-radius: 50%;
+  background: transparent;
 }
 .about-hero__photo {
   width: 100%;
@@ -6771,6 +6771,12 @@ b) {
   font-size: 14px;
   color: var(--muted);
   opacity: 0.5;
+}
+.about-empty-hint {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  opacity: 0.7;
 }
 .about-link-list {
   display: flex;
