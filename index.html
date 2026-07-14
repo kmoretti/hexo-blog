@@ -129,7 +129,7 @@
             aria-hidden="true"
             tabindex="-1"
             style="--sticker-size: 96px;"
-          ><img src="/cover/notebook.png" alt="" loading="lazy" decoding="async" draggable="false" referrerpolicy="no-referrer"></button>
+          ><img src="/cover/notebook.webp" alt="" loading="lazy" decoding="async" draggable="false" referrerpolicy="no-referrer"></button>
         
       
         
@@ -140,7 +140,7 @@
             aria-hidden="true"
             tabindex="-1"
             
-          ><img src="/cover/snowman.png" alt="" loading="lazy" decoding="async" draggable="false" referrerpolicy="no-referrer"></button>
+          ><img src="/cover/snowman.webp" alt="" loading="lazy" decoding="async" draggable="false" referrerpolicy="no-referrer"></button>
         
       
     </div>
@@ -719,12 +719,43 @@
 
 
 
+<section
+  class="memos-ticker"
+  data-ech0-api="https://m.081531.xyz/api/echo/query"
+  data-ech0-proxy="/__ech0"
+  data-ech0-page-size="10"
+  data-ech0-interval="6000"
+  data-ech0-autoplay="true"
+  aria-labelledby="memos-ticker-title"
+>
+  <span class="memos-ticker__tape" aria-hidden="true"></span>
+  <a href="/shuoshuo/" class="memos-ticker__label" aria-label="前往说说页面">
+    <span class="memos-ticker__pin" aria-hidden="true"></span>
+    <h2 id="memos-ticker-title">今日手账</h2>
+    <span class="memos-ticker__date" data-memos-date></span>
+  </a>
+  <div class="memos-ticker__viewport" aria-live="polite">
+    <p class="memos-ticker__message is-loading" data-memos-message>正在翻阅最新记录</p>
+  </div>
+  <div class="memos-ticker__controls" data-memos-controls hidden>
+    <button type="button" data-memos-prev aria-label="上一条">←</button>
+    <span data-memos-count>0 / 0</span>
+    <button type="button" data-memos-next aria-label="下一条">→</button>
+  </div>
+  <div class="memos-ticker__progress" data-memos-progress aria-hidden="true"></div>
+  <noscript><p class="memos-ticker__message">暂时没有新的记录</p></noscript>
+</section>
+
+
+
+
+
 
   <div class="post-list">
     
       
 <article class="post-card" data-title="Hello World">
-  <a class="post-thumb-link" href="/2026/07/08/hello-world/" aria-label="Hello World">
+  <a class="post-thumb-link" href="/2026/07/14/hello-world/" aria-label="Hello World">
     
 <div class="paper-thumb paper-thumb-0 paper-thumb--cover">
   
@@ -734,13 +765,13 @@
 
   </a>
   <div class="post-card-copy">
-    <h3><a href="/2026/07/08/hello-world/">Hello World</a></h3>
+    <h3><a href="/2026/07/14/hello-world/">Hello World</a></h3>
     <p>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any...</p>
     
     <div class="meta-line meta-line--tax">
       <span class="meta-date">
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar flatpaper-icon flatpaper-icon--lucide" aria-hidden="true"><use href="/icons.svg#flatpaper-icon-lucide-calendar"></use></svg>
-2026-07-08</span>
+2026-07-14</span>
       
     </div>
   </div>
@@ -787,9 +818,9 @@
     <ul class="recent-list js-random-posts">
       
         <li>
-          <a class="recent-item" href="/2026/07/08/hello-world/">
+          <a class="recent-item" href="/2026/07/14/hello-world/">
             <strong>Hello World</strong>
-            <em>2026-07-08</em>
+            <em>2026-07-14</em>
           </a>
         </li>
       
@@ -851,6 +882,12 @@
   
 <script src="/js/main.js"></script>
 
+  
+    
+<script src="/js/memos-ticker.js"></script>
+
+  
+  
   
 </body>
 </html>
